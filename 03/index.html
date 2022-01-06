@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        
+    </head>
+    <body>
+            <header>
+                <h1>ADD ITEMS</h1> 
+            </header>
+
+            <main>
+                <section class="sec1">
+                    <button onclick="addItem()">ADD NEW ITEM</button>
+                    <h2 id="item"> None</h2>
+
+                </section>
+
+                <section class="sec2">
+                    <ol id="unorderd">
+                        <li onclick="itemSelected(id)" id="li1" class="list">1st Item</li>
+                        <li onclick="itemSelected(id)" id="li2" class="list">2nd Item</li>
+                        <li onclick="itemSelected(id)" id="li3" class="list">3rd Item</li>
+                        <li onclick="itemSelected(id)" id="li4" class="list">4th Item</li>
+
+                    </ol>
+                </section>
+
+                <div class="nuts">
+                    <img src="circle2.jpg" alt="Nut" id="damnNut">
+                </div>
+                <script src="script.js"></script>
+            </main>
+    </body>
+</html>
+
